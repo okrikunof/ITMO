@@ -33,6 +33,6 @@ int main() {
     dn = DecBin(input_num);
     printf("%d\n", dn);
     sprintf(dchchar, "%d", dn);
-    printf("%c", dchchar[input_num_2 - 1]);
+    printf("%c", dchchar[input_num_2]);
     return 0;
 }
