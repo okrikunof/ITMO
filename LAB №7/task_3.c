@@ -11,7 +11,7 @@ union {
 
 int main() {
     scanf("%x", &code.status);
-
+    
     if (code.num_lock)
         printf("num_lock is on\n");
     else
