@@ -94,5 +94,23 @@ int main() {
 //        }
 //    }
 //    printf("%d", kmax);
+
+
+////  ПУНКТ №13
+
+//    int len_str;
+//    printf("Введите максимальное кол-во элментов в строках\n");
+//    scanf("%d", &len_str);
+//    len_str++;
+//    char str_1[len_str], str_2[len_str];
+//    printf("Введите значения строк через пробел\n");
+//    scanf("%s", &str_1);
+//    scanf("%s", &str_2);
+//    char *del = strtok(str_1, str_2);
+//    while (del != NULL)
+//    {
+//        printf("%s\n", del);
+//        del = strtok (NULL, str_2);
+//    }
     return 0;
 }
